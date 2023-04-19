@@ -1,3 +1,6 @@
+*{
+    background-color: rgb(225, 235, 245);
+}
 .master{
     display: flex;
     justify-content: center;
@@ -40,4 +43,16 @@ li{
 p{
     align-items: center;
     text-align: center;
+}
+button{
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    bottom: 0px;
+    
+
+}
+button:hover{
+    color: blueviolet;
 }
